@@ -320,7 +320,7 @@ Let’s add a volume mount mapping the `/cache` path to a PVC named `basechache-
 ```
 
 
-To do that you can apply the modified [image-build-basecache.yaml](https://github.com/tektoncd/website/tree/main/content/en/blog/2023/speeding-up-container-image-builds-in-tekton-pipelines/tekton-speed-builds/kaniko-basecache/image-build-basecache.yaml) in the [kaniko-basecache](https://github.com/tektoncd/website/tree/main/content/en/blog/2023/speeding-up-container-image-builds-in-tekton-pipelines/tekton-speed-builds/kaniko-basecachespeed-builds/tree/main/kaniko-cache) folder to update the image-build Task:
+To do that you can apply the modified [image-build-basecache.yaml](https://github.com/tektoncd/website/tree/main/content/en/blog/2023/speeding-up-container-image-builds-in-tekton-pipelines/tekton-speed-builds/kaniko-basecache/image-build-basecache.yaml) in the [kaniko-basecache](https://github.com/tektoncd/website/tree/main/content/en/blog/2023/speeding-up-container-image-builds-in-tekton-pipelines/tekton-speed-builds/kaniko-basecache) folder to update the image-build Task:
 
 
 ```
