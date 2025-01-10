@@ -330,6 +330,8 @@ Or using `kubectl`:
 kubectl apply -f \
 https://raw.githubusercontent.com/tektoncd/catalog/main/task/git-clone/0.6/git-clone.yaml
 ```
+> [!IMPORTANT]
+> When using **Git-Clone** you should make sure that your private key is in the correct format. Libcrypto requires you to have a new line at the end of your private_key (PEM) format. Checkout: https://github.com/tektoncd/catalog/issues/1220 for more information.
 
 Alternatively, you can [bundle a Task or a Pipeline][bundles] and let your
 Pipeline fetch it directly from a registry.
