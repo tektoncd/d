@@ -289,6 +289,6 @@ PipelineRun built and pushed.
 [kubectl]: https://kubernetes.io/docs/tasks/tools/#kubectl
 [tkn]: /docs/cli/
 [jq]: https://stedolan.github.io/jq/download/
-[cosign]: https://docs.sigstore.dev/cosign/installation/
+[cosign]: https://docs.sigstore.dev/cosign/system_config/installation/
 [blog-post]: /blog/2023/04/19/getting-to-slsa-level-2-with-tekton-and-tekton-chains/
 

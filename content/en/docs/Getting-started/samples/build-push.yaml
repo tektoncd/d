@@ -44,7 +44,7 @@ spec:
     workingDir: $(workspaces.source.path)
     image: bash
     script: |
-      cat <<EOF > Dockerfile
+      cat <<EOF > $(workspaces.source.path)/Dockerfile
       FROM alpine:3.16
       RUN echo "hello world" > hello.log
       EOF
